@@ -276,6 +276,9 @@ en:
     search:
       start: Start searching...
   landing:
+    companyname: Golive
+    companyurl_portal: https://www.golive.bfcinfotech.com/b/
+    companyurl: https://bfcinfotech.com
     about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
     welcome: Welcome to BigBlueButton.
     video: Watch our tutorial on using Greenlight
