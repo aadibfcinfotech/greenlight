@@ -28,10 +28,10 @@
       </script>
     <% end %>
 
-    <title><%= t("bigbluebutton") %></title>
-    <meta property="og:title" content="<%= t("bigbluebutton", locale: :en) %>" />
+    <title><%= t("landing.companyname") %>Webinar Tool</title>
+    <meta property="og:title" content="<%= t("landing.companyname") %> elearning Tool" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="<%= t("landing.about", href: "Greenlight", locale: :en) %>" />
+    <meta property="og:description" content="<%= t("landing.companyname") %> elearning tool is a simple front-end for students. As a teacher we can create our own rooms to host sessions, or join others using a short and convenient link." />
     <meta property="og:url" content="<%= request.base_url %>" />
     <meta property="og:image" content="<%= logo_image %>" />
 
@@ -66,9 +66,7 @@
         <div class="alert alert-icon alert-danger text-center mb-0">
           <div class="flash alert d-inline">
             <i class="fas fa-exclamation-triangle"></i>
-            <p class="d-inline"><%= t("test_install",
-              href: link_to(t("docs").downcase, "http://docs.bigbluebutton.org/install/greenlight-v2.html#2-install-greenlight", target: "_blank", rel: "noopener")
-            ).html_safe %>
+            
           </div>
         </div>
       <% end %>
