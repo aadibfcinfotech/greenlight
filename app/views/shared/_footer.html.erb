@@ -14,7 +14,10 @@
 %>
 
 <footer class="footer pt-3">
-  <p class="text-center mb-1">Powered by <a rel="noopener" href="<%= t("landing.company_url") %>" target="_blank" class="btn btn-outline-primary mx-2 sign-in-button"><%= t("landing.companyname") %></a> <%= Greenlight::Application::VERSION %></p>
+  <p class="text-center mb-1">
+    <a rel="noopener" href="<%= t("bigbluebutton_copyright_url") %>" target="_blank" class="btn btn-outline-primary mx-2 sign-in-button"><%= t("bigbluebutton_copyright_name") %></a> <%= Greenlight::Application::VERSION %>
+    
+  </p>
 </footer>
 
 <%= render "shared/components/cookie_warning" %>
